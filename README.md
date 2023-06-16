@@ -1,4 +1,4 @@
-# D-connect
+# D-connect                                            <Under development>
 # Building Bridges through chat
 App created in React Js using Material UI and Firebase .
 Exploring FireBase with its optimal features , Feel free to contribute in my development
