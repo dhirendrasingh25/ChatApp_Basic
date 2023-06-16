@@ -1,0 +1,104 @@
+npm install firebase 
+npm i -g firebase-tools
+firebase login
+firebase init     
+firebase deploy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <Item sx={{ my: 1, mx: 'auto',p: 2,}} >
+        <Stack spacing={2} direction="row" alignItems="center" justifyContent="space-between">
+          <Avatar>{name[0]}</Avatar>
+          <Typography display='flex' >{message}</Typography>
+          {/* <button  ><SendIcon sx={{ color: 'grey'}}/></button> */}
+      //   </Stack>
+      // </Item>
+      // <Item sx={{ my: 1, mx: 'auto',p: 2,}}  >
+      //   <Stack  spacing={2} direction="row" alignItems="center" justifyContent="space-between">
+      //   <Avatar>{name[0]}</Avatar>
+      //     <Typography display='flex'>{message}</Typography>
+      //   </Stack>
+      // </Item> */}
+
+      // const Item = styled(Paper)(({ theme }) => ({
+      //   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+      //   ...theme.typography.body2,
+      //   padding: theme.spacing(1),
+      //   textAlign: 'center',
+      //   color: theme.palette.text.secondary,
+      //   maxWidth: 600,
+      //   display: 'flex',
+      //   flexDirection:'row',
+      //   '@media (max-width: 600px)': {
+      //     maxWidth: 300,
+      //   },
+      //   '@media (max-width: 400px)': {
+      //     maxWidth: 300,
+      //   },
+      //   borderRadius:'10px'
+      // }));
+
+
+
+
+      // <Stack 
+      //     sx={{ my: 1, mx: 'auto',p: 2,}} 
+      //     display='flex'
+      //     flexWrap='wrap' 
+      //     flexDirection= 'row'
+      //     maxWidth={{xs:'300px' , lg: '600px'}}
+      //     backgroundColor='#8EC3B0'
+      //     borderRadius='10px'
+      //     padding='20px'
+      //     marginTop='20px'
+      //     marginRight={{ xs: '5px', lg: '10px' ,xl: '10px'}}>
+
+      //   <Stack  spacing={2} direction="row" alignItems="center" justifyContent="flex-start">
+      //   <Avatar >{name[0]}</Avatar>         
+      //     <Typography 
+      //       sx={{color:'white' , wordWrap:'break-word' }}   
+      //       fontSize='1.3rem' 
+      //       display='flex' 
+      //       maxWidth={{xs:'250px' ,lg:'500px'}}>
+      //       <span 
+      //       style={{fontWeight:'bold' , fontFamily:'Arial' , color:'#DEF5E5'}}>{name} : </span> {bigmes}
+      //     </Typography>
+      //   </Stack>  
+      // </Stack>
+
+      // <Stack 
+      //     sx={{ my: 1, mx: 'auto',p: 2,}} 
+      //     display='flex' 
+      //     flexWrap='wrap'
+      //     flexDirection= 'row'
+      //     maxWidth={{xs:'300px' , lg: '600px'}}
+      //     backgroundColor='#BCEAD5'
+      //     borderRadius='10px'
+      //     padding='20px'
+      //     marginTop='20px'
+      //     marginLeft={{ xs: '5px', lg: '10px' ,xl: '10px'}}>
+      //     <Stack  spacing={2} direction="row" alignItems="center" justifyContent="flex-start">
+      //     <Avatar>{name[0]}</Avatar>
+      //       <Typography 
+      //         sx={{color:'white' , wordWrap:'break-word' }}   
+      //         fontSize='1.3rem' 
+      //         display='flex' 
+      //         maxWidth={{xs:'250px' ,lg:'500px'}}>
+      //         <span 
+      //       style={{fontWeight:'bold' , fontFamily:'Arial' , color:'#8EC3B0'}}>{name} : </span> {message}
+      //       </Typography>
+      //     </Stack>  
+      //   </Stack>
